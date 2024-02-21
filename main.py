@@ -7,7 +7,7 @@ header = {
 
 urls = ["https://scrapegraph-ai-demo.streamlit.app/", "https://vincigit00-nba-platform-main-ounnit.streamlit.app/", "https://vincigit00-amazon-scraping-app-nfzu99.streamlit.app/"]
 
-for i in range(0,10):
+for i in range(0,5):
     print(f"iteration: {i+1}")
     for url in urls:
         r = requests.get(url, headers=header)

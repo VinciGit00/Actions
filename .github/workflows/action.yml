@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 20 * * *' # Ogni giorno alle 22:00 ora italiana
+    - cron: "0 21 */1 * *"
 
 jobs:
   run_main_py:
